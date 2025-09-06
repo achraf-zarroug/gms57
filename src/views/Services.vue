@@ -65,7 +65,7 @@
         <!-- Service Card 5: Électricité auto -->
         <div class="group relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700 hover:border-[#e50914] transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-[#e50914]/20">
           <div class="relative h-48 overflow-hidden">
-            <img src="/images/maher1.jpg" 
+            <img src="/images/Électricité auto.jpeg" 
                  alt="Électricité auto" 
                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -95,6 +95,3 @@
   </div>
 </template>
 
-<script setup>
-// Services page component
-</script>
