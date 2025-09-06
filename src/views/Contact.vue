@@ -1,7 +1,7 @@
 <template>
-  <div class="py-20">
+  <div class="py-20 bg-white">
     <div class="container mx-auto px-4">
-      <h1 class="text-5xl font-bold text-center mb-12">Contactez <span class="text-red-500">GMS57</span></h1>
+      <h1 class="text-5xl font-bold text-black text-center mb-12">Contactez <span class="text-red-500">GMS57</span></h1>
       
       <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
         <!-- Contact Form -->
@@ -45,20 +45,20 @@
                 <svg class="w-5 h-5 text-red-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                 </svg>
-                <span>+216 XX XXX XXX</span>
+                <span>06 95 29 90 64</span>
               </div>
               <div class="flex items-center">
                 <svg class="w-5 h-5 text-red-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
-                <span>contact@gms57.tn</span>
+                <span>gms57000@gmail.com</span>
               </div>
               <div class="flex items-start">
                 <svg class="w-5 h-5 text-red-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
-                <span>Adresse du garage, Ville, Tunisie</span>
+                <span>17 Rue de la Patrotte, METZ 57050</span>
               </div>
             </div>
           </div>
@@ -68,11 +68,11 @@
             <div class="space-y-2">
               <div class="flex justify-between">
                 <span>Lundi - Vendredi</span>
-                <span class="text-red-500">8h00 - 18h00</span>
+                <span class="text-red-500">09h00 - 19h00</span>
               </div>
               <div class="flex justify-between">
                 <span>Samedi</span>
-                <span class="text-red-500">8h00 - 16h00</span>
+                <span class="text-red-500">09h00 - 14h00</span>
               </div>
               <div class="flex justify-between">
                 <span>Dimanche</span>
@@ -81,10 +81,19 @@
             </div>
           </div>
 
-          <!-- Google Maps Placeholder -->
-          <div class="bg-gray-800 h-64 rounded-lg flex items-center justify-center">
-            <span class="text-gray-500">Carte Google Maps</span>
-          </div>
+       <!-- Google Maps -->
+<div class="bg-gray-800 rounded-lg overflow-hidden">
+  <div class="relative w-full h-64 sm:h-80 lg:h-96">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d167072.3729930599!2d5.8882856!3d49.1340198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794df23e950ddb1%3A0x5f90f79997a343e9!2sGMS%2057%20GROUP%20MOTORS%20SPORT!5e0!3m2!1sen!2stn!4v1757179495096!5m2!1sen!2stn"
+      class="absolute inset-0 w-full h-full border-0"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
+
         </div>
       </div>
     </div>
