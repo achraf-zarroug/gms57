@@ -102,6 +102,8 @@
 
 <script lang="ts">
 import { ref } from 'vue'
+import emailjs from "emailjs-com"
+
 export default{
 name: 'Contact',
 setup(){
@@ -112,8 +114,22 @@ const form = ref({
 })
 
 const submitForm = () => {
-  alert('Message envoyé avec succès!')
-  form.value = { name: '', email: '', message: '' }
+  const templateParams = {
+    from_name: form.value.name,
+    from_email: form.value.email,
+    message: form.value.message,
+    to_email: "gms57000@gmail.com" // destinataire
+  }
+
+  emailjs.send("SERVICE_ID", "TEMPLATE_ID", templateParams, "PUBLIC_KEY")
+    .then(() => {
+      alert("Message envoyé avec succès ✅")
+      form.value = { name: "", email: "", message: "" }
+    })
+    .catch((error) => {
+      console.error("Erreur:", error)
+      alert("Erreur lors de l'envoi ❌")
+    })
 }
 return{
     form,submitForm
