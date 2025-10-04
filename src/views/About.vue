@@ -25,7 +25,7 @@
           </div>
           <div class="relative">
             <img 
-              src="/images/maher1.jpg" 
+              src="/images/maher10.jpg" 
               alt="Atelier GMS57 - Garage moderne équipé"
               class="w-full h-96 object-cover rounded-lg shadow-2xl"
             />
@@ -38,33 +38,48 @@
           <h2 class="text-4xl font-bold text-black text-center mb-12">Notre <span class="text-red-500">Équipe</span></h2>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:border-red-500 transition-colors">
-              <img 
-                src="/images/maher1.jpg" 
-                alt="Chef mécanicien"
-                class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-              />
+             <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                
+                class="w-24 h-24 rounded-full mx-auto mb-4 p-2 bg-gray-200 text-gray-600"
+              >
+                
+              </svg>
               <h3 class="text-xl font-semibold text-center mb-2">Mohamed Salah</h3>
               <p class="text-red-500 text-center mb-3">Chef Mécanicien</p>
               <p class="text-gray-400 text-sm text-center">15 ans d'expérience en mécanique générale et diagnostic électronique</p>
             </div>
             
             <div class="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:border-red-500 transition-colors">
-              <img 
-                src="/images/maher1.jpg" 
-                alt="Spécialiste moteur"
-                class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                
+                class="w-24 h-24 rounded-full mx-auto mb-4 p-2 bg-gray-200 text-gray-600"
+              >
+               
+              </svg>
               <h3 class="text-xl font-semibold text-center mb-2">Ahmed Ben Ali</h3>
               <p class="text-red-500 text-center mb-3">Spécialiste Moteur</p>
               <p class="text-gray-400 text-sm text-center">Expert en optimisation et réparation moteur, toutes marques</p>
             </div>
             
             <div class="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:border-red-500 transition-colors">
-              <img 
-                src="/images/maher1.jpg" 
-                alt="Technicien électronique"
-                class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                
+                class="w-24 h-24 rounded-full mx-auto mb-4 p-2 bg-gray-200 text-gray-600"
+              >
+             
+              </svg>
               <h3 class="text-xl font-semibold text-center mb-2">Karim Trabelsi</h3>
               <p class="text-red-500 text-center mb-3">Technicien Électronique</p>
               <p class="text-gray-400 text-sm text-center">Spécialisé en diagnostic électronique et systèmes embarqués</p>
@@ -78,7 +93,7 @@
           <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-gray-900 rounded-lg p-6 border border-gray-800">
               <img 
-                src="/images/maher1.jpg" 
+                src="/images/maher6.jpg" 
                 alt="Équipement de diagnostic"
                 class="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -88,7 +103,7 @@
             
             <div class="bg-gray-900 rounded-lg p-6 border border-gray-800">
               <img 
-                src="/images/maher1.jpg" 
+                src="/images/maher5.jpg" 
                 alt="Pont élévateur professionnel"
                 class="w-full h-48 object-cover rounded-lg mb-4"
               />
