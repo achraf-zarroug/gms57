@@ -10,7 +10,7 @@
 />
 
         </router-link>
-        <nav class="hidden md:flex space-x-8">
+        <nav class="hidden md:flex space-x-8 items-center">
           <router-link 
             to="/" 
             class="transition-colors"
