@@ -39,6 +39,13 @@
           >
             Contact
           </router-link>
+          <a 
+            href="https://wa.me/33695299064" 
+            target="_blank" 
+            class="ml-4 px-6 py-2.5 bg-primary hover:bg-primary/90 text-white text-sm font-medium rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-primary/25"
+          >
+            Devis gratuit
+          </a>
         </nav>
         <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden text-white">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,6 +88,13 @@
           >
             Contact
           </router-link>
+          <a 
+            href="https://wa.me/33695299064" 
+            target="_blank" 
+            class="inline-flex items-center justify-center mt-4 px-6 py-3 bg-primary hover:bg-primary/90 text-white font-medium rounded-lg transition-colors"
+          >
+            Devis gratuit
+          </a>
         </nav>
       </div>
     </div>
